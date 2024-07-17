@@ -2,26 +2,29 @@ import { Box, Container, Grid, Heading, Text, Flex, SimpleGrid } from '@chakra-u
 import Hero from "../components/Hero";
 import GamesSection from '@/components/GamesSection';
 import { getEntries } from '@/libs/contentful';
-import TestimonialCard from '@/components/Testimone';
+import TestimonialCard from '@/components/Testimone'
 
 const testimonials = [
   {
     name: 'John Doe',
     title: 'Valorant',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ',
-    testimonial: 'Permainan yang sangat menarik,dan mudah dimainkan merupakan sebuah permainan FPS yang sangat menarik sekali',
+    testimonial: 'Merupakan sebuah permainan fps yang sangat seru sekali',
+    alt: "gambar1",
   },
   {
     name: 'Jane Smith',
     title: 'Wild Rift',
     avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE3Nzg0fQ&auto=format&fit=crop&w=200&q=80',
     testimonial: 'Merupakan sebuah permainan moba yang sangat seru sekali',
+    alt:"gambar2",
   },
   {
     name: 'Emily Johnson',
     title: 'Legends of Runterra',
     avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80',
-    testimonial: 'permainan ini dibutuhkan sebuah taktik yang sangat bagus demi membalik keadaan',
+    testimonial: 'Merupakan sebuah permainan Card Game yang sangat seru sekali',
+    alt:"gambar3",
   },
 ]
 
