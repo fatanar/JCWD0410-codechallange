@@ -72,7 +72,7 @@ interface CardProps {
               <Text color={descColor}>{description}</Text>
             </Stack>
             <Stack mt={2} direction="row" spacing={2} align="center">
-              <Avatar src="https://avatars0.githubusercontent.com/u/1164541?v=4" size="sm" />
+              <Avatar src="https://avatars0.githubusercontent.com/u/1164541?v=4" size="sm"  />
               <Stack direction="column" spacing={0} fontSize="xs">
                 <Text fontWeight={600}>{author}</Text>
                 <Text color="gray.500">Feb 08, 2021 · 6min read</Text>

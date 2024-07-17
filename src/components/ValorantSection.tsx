@@ -13,7 +13,7 @@ const ValorantSection = () => {
       >
         <Box flex="1">
           <Image
-            src="/valoranthd.jpg" // Update with the correct path to your image
+            src="/Valoranthd.jpg" // Update with the correct path to your image
             alt="Valorant"
             objectFit="cover"
             width="100%"
